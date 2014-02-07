@@ -1,5 +1,5 @@
 development:
-  adapter: pg
+  adapter: postgresql
   database: rackit_development
   username: rackit
   password:
@@ -7,7 +7,7 @@ development:
   timeout: 5000
 
 test:
-  adapter: pg
+  adapter: postgresql
   database: rackit_test
   username: rackit
   password:
